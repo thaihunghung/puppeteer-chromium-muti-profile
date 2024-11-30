@@ -20,7 +20,8 @@ npx @puppeteer/browsers install chrome@116.0.5793.0
 
 ## tạo folder chứa profile chromium: E:\puppeteer-auto-meta-proxy\chrome-profile
 ### Lệnh PowerShell
-& "E:\puppeteer-auto-meta-proxy\chrome\win64-116.0.5793.0\chrome.exe" --user-data-dir="E:\puppeteer-auto-meta-proxy\chrome-profile" --profile-directory="Profile 1"
+& "E:\puppeteer-auto-meta-proxy\chrome\win64-116.0.5793.0\chrome-win64\chrome.exe" --user-data-dir="E:\puppeteer-auto-meta-proxy\profile\Default"
+
 
 ### userDataDir không được trùng 
 
